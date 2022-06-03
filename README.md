@@ -1,4 +1,4 @@
-# Portifólio de Exercícios
+# Portfólio de Exercícios
 
 Este repositório tem como finalidade principal, anexar cada exercícios que eu realizar, visando uma visualização do meu processo e progresso dentro da Trybe. Tal documento é organizado de acordo com a linha cronologica do curso, divididas em Módulos/Blocos/Exercícios, que são divididos em dias. 
 
