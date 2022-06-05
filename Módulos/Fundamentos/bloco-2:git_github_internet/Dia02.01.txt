@@ -1,0 +1,51 @@
+desbravando_git git:(master) git branch
+➜  desbravando_git git:(master) git branch dev1          
+➜  desbravando_git git:(master) git checkout dev1
+Switched to branch 'dev1'
+➜  desbravando_git git:(dev1) git status       
+No ramo dev1
+nothing to commit, working tree clean
+➜  desbravando_git git:(dev1) git branch dev2
+➜  desbravando_git git:(dev1) git checkout dev2
+Switched to branch 'dev2'
+➜  desbravando_git git:(dev2) mkdir favorito      
+➜  desbravando_git git:(dev2) ls
+favorito  README.md
+➜  desbravando_git git:(dev2) cd favorito       
+➜  favorito git:(dev2) git status       
+No ramo dev2
+nothing to commit, working tree clean
+➜  favorito git:(dev2) cat > arquivo1   
+teste
+➜  favorito git:(dev2) ✗ git status
+No ramo dev2
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+        ./
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+➜  favorito git:(dev2) ✗ rm arquivo1            
+➜  favorito git:(dev2) cat > comidas.txt
+acai
+arroz
+feijao
+batata frtia
+rabada
+➜  favorito git:(dev2) ✗ git status
+No ramo dev2
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+        ./
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+➜  favorito git:(dev2) ✗ git add . 
+➜  favorito git:(dev2) ✗ git status
+No ramo dev2
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   comidas.txt
+
+➜  favorito git:(dev2) ✗ git commit -m 'criacao da pasta favorito e arquivo comidas.txt'
+[dev2 ef4865d] criacao da pasta favorito e arquivo comidas.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 favorito/comidas.txt
