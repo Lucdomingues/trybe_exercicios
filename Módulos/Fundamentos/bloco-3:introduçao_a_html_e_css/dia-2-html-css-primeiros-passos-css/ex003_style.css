@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
+}
+a {
+  font-style: oblique;
+  text-decoration: double;
+}
+#plucas {
+  font-size: 65px;
+  color: darkorange;
+  font-family: sans-serif;
+}
+.bground {
+  background-color: khaki;
+  color: darkslategrey;
+}
+.fweight {
+  font-weight: 600;
+  font-size: 3em;
+}
