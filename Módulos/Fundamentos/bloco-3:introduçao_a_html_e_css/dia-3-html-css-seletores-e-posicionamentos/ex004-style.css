@@ -1,0 +1,41 @@
+div:hover {
+  border-style: inset;
+  border-color: green;
+  border-width: 15px;
+  color: white;
+}
+
+div:nth-of-type(1) {
+  background-color: blue;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+div:nth-of-type(2) {
+  background-color: yellow;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+div:nth-of-type(3) {
+  background-color: purple;
+  width: 20%;
+  text-align: center;
+  padding: 2em;
+}
+
+div:nth-of-type(4) {
+  background-color: darkslategray;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+div:nth-of-type(5) {
+  background-color: coral;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
