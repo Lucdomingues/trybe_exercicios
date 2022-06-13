@@ -1,0 +1,58 @@
+ol li {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+li {
+  font-size: 20px;
+}
+
+li.par {
+  color: green;
+}
+
+li.impar {
+  text-transform: uppercase;
+}
+
+h1,
+h3 {
+  color: red;
+}
+
+.italic {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+.blue {
+  color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+.green:hover {
+  color: green;
+}
+
+.laranja:hover {
+  color: orange;
+}
+
+.black:hover {
+  color: black;
+}
+
+.yellow:hover {
+  color: yellow;
+}
