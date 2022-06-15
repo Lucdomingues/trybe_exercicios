@@ -40,15 +40,64 @@ a:hover {
   color: white;
 }
 
-main {
+.container-h2 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(189, 186, 186);
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 30%;
 }
 
-.informações-gerais {
-  border: 3px solid blue;
+.container-h3 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(189, 186, 186);
+  margin-left: 20%;
+  margin-right: 30%;
+  opacity: 0.9;
 }
 
-.visão {
-  border: 3px solid green;
+.container-principal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.container-seção1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.container-artigo1 {
+  padding-left: 20%;
+  padding-right: 30%;
+}
+
+.container-tabela {
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+  padding-right: 60px;
+}
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid #f2f2f2;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.container-artigo2 {
 }
 
 footer {
