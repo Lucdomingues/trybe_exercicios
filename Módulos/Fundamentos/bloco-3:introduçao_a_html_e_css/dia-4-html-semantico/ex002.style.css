@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: rgb(6, 40, 61);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.barranav {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  float: left;
+}
+
+.barranav:hover {
+  background-color: rgb(3, 25, 39);
+  opacity: 0.7;
+}
+
+.header {
+  margin-top: 43px;
+  border-bottom: 2px solid rgb(216, 211, 211);
+  border-top: 2px solid rgb(224, 215, 215);
+  padding: 30px;
+  padding-bottom: 10px;
+  background-color: rgb(246, 227, 197);
+  text-align: center;
+  color: rgb(76, 172, 188);
+}
+
+.container-h2 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(189, 186, 186);
+  margin-bottom: 30px;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 20px;
+}
+
+.container-h3 {
+  padding-bottom: 3px;
+  padding-top: 30px;
+  border-bottom: 1px solid rgb(189, 186, 186);
+  margin-left: 20%;
+  margin-right: 30%;
+  opacity: 0.9;
+}
+
+.container-principal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.container-seção1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.container-artigo {
+  padding-left: 20%;
+  padding-right: 30%;
+  padding-top: 10px;
+}
+
+.container-aside {
+  float: right;
+  margin-top: 0;
+  text-align: center;
+  padding-right: 60px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(126, 123, 123);
+}
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid #e0d9d9be;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e0d9d9be;
+}
+
+.img1 {
+  border-radius: 50%;
+}
+
+.img2 {
+  text-align: center;
+  margin: 50px;
+}
+
+.img3 {
+  float: inline-start;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.ol-reference {
+  font-style: italic;
+  font-size: 17px;
+  text-decoration: solid;
+}
+
+footer {
+  padding: 30px;
+  border-top: 1px solid rgb(160, 153, 153);
+  margin-top: 250px;
+  background-color: rgb(246, 227, 197);
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.container-redes {
+  display: inline-block;
+  float: right;
+}
