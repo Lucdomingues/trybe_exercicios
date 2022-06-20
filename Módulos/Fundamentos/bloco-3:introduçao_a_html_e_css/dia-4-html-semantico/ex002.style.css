@@ -10,7 +10,7 @@ body {
   background-color: #f2f2f2;
 }
 
-nav {
+.navegacion {
   background-color: rgb(6, 40, 61);
   position: fixed;
   top: 0;
@@ -23,7 +23,12 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
-  float: left;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.a {
+  color: white;
 }
 
 .barranav:hover {
@@ -95,7 +100,6 @@ table {
   border: 3px solid #e0d9d9be;
 }
 
-th,
 td {
   text-align: left;
   padding: 8px;

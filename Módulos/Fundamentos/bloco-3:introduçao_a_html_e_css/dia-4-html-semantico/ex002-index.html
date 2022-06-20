@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="ex002.style.css" />
   </head>
   <body>
-    <nav>
-      <a
-        class="barranav"
-        href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
-        >Home</a
-      >
-      <a
-        class="barranav"
-        href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
-        >Sobre</a
-      >
-      <a
-        class="barranav"
-        href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
-        >Contato</a
-      >
+    <nav class="navegacion">
+      <ul>
+        <li class="barranav">
+          <a
+            class="a"
+            href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
+            >Home</a
+          >
+        </li>
+        <li class="barranav">
+          <a
+            class="a"
+            href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
+            >Sobre</a
+          >
+        </li>
+        <li class="barranav">
+          <a
+            class="a"
+            href="http://127.0.0.1:5500/M%C3%B3dulos/Fundamentos/bloco-3:introdu%C3%A7ao_a_html_e_css/dia-4-html-semantico/ex002-index.html"
+            >Contato</a
+          >
+        </li>
+      </ul>
     </nav>
     <header class="header">
       <h1 class="text1">Soco a 80km/h: Conheça o Stomatopoda.</h1>
@@ -42,31 +50,31 @@
           <article>
             <h2>Stomatopoda</h2>
             <table>
+              <caption>
+                <h3>Classificação científica</h3>
+              </caption>
               <tr>
-                <th>Classificação científica</th>
-              </tr>
-              <tr>
-                <td>Reino:</td>
+                <th>Reino:</th>
                 <td>Animalia</td>
               </tr>
               <tr>
-                <td>Filo:</td>
+                <th>Filo:</th>
                 <td>Arthropoda</td>
               </tr>
               <tr>
-                <td>Subfilo:</td>
+                <th>Subfilo:</th>
                 <td>Crustacea</td>
               </tr>
               <tr>
-                <td>Classe:</td>
+                <th>Classe:</th>
                 <td>Malacostraca</td>
               </tr>
               <tr>
-                <td>Subclasse:</td>
+                <th>Subclasse:</th>
                 <td>Hoplocarida</td>
               </tr>
               <tr>
-                <td>Ordem:</td>
+                <th>Ordem:</th>
                 <td>
                   Stomatopoda <br />
                   Latreille, 1817
@@ -230,7 +238,7 @@
       </section>
     </main>
     <footer>
-      <div class="container-redes">
+      <nav class="container-redes">
         <a href="https://github.com/Lucdomingues"
           ><img
             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
@@ -241,7 +249,7 @@
             src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
             alt="linkdedin.png"
         /></a>
-      </div>
+      </nav>
       <p>Página criada por: Lucas Camargo Domingues</p>
       <p>Públicada em: 14/06/2022</p>
     </footer>
