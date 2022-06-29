@@ -37,7 +37,7 @@
     </header>
     <main class="main-content">
       <section class="center-content">
-        <p>Texto padrão do nosso site</p>
+        <p>Textos padrão do nosso site</p>
         <p>-----</p>
         <p>Trybe</p>
       </section>
@@ -61,6 +61,7 @@
       function mudarP() {
         const todasP = document.getElementsByTagName("p");
         for (todas of todasP) {
+          todas.style.textTransform = "uppercase";
           console.log(todas);
         }
       }
