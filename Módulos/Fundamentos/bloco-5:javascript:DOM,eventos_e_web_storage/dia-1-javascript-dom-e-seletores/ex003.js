@@ -1,0 +1,14 @@
+const corpo = document.getElementById("container");
+corpo.style.backgroundColor = "rgb(241, 238, 233)";
+const cabecalho = document.getElementById("header-container");
+cabecalho.style.backgroundColor = "rgb(78, 148, 79)";
+const secao1 = document.getElementsByClassName("emergency-tasks");
+secao1[0].style.backgroundColor = "rgb(255, 161, 161)";
+const secao2 = document.getElementsByClassName("no-emergency-tasks");
+secao2[0].style.backgroundColor = "rgb(244, 224, 109)";
+const rodape = document.getElementById("footer-container");
+rodape.style.backgroundColor = "rgb(26, 77, 46)";
+document.getElementById("f").style.backgroundColor = "rgb(161, 73, 250)";
+document.getElementById("i").style.backgroundColor = "rgb(161, 73, 250)";
+document.getElementById("u").style.backgroundColor = "black";
+document.getElementById("g").style.backgroundColor = "black";
