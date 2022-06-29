@@ -1,0 +1,10 @@
+const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "red";
+const titulo = document.getElementById("page-title");
+titulo.innerText = "Doadores de Memorias";
+const secondParagrafo = document.getElementById("second-paragraph");
+secondParagrafo.style.backgroundColor = "blue";
+secondParagrafo.style.fontSize = "30px";
+secondParagrafo.style.color = "white";
+const subtitulo = document.getElementById("subtitle");
+subtitulo.style.fontSize = "50px";
