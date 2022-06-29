@@ -43,40 +43,41 @@
       </section>
     </main>
     <script>
-      function mudancaParagrafo() {
-        const texto = document.getElementsByTagName("p");
-        texto[1].innerText =
-          "A 2 anos me vejo em um trabalho ganhndo dentre 5 a 6 mil, investindo, e vivendo!";
-        for (i = 0; i < texto.length; i += 1) {
-          texto[i].toUpperCase();
+      function mudancaText() {
+        const parag = document.getElementsByTagName("p");
+        parag[1].innerText =
+          "Daqui 2 anos me vejo em um emprego ganhando cerca de 5 a 6 mil, investindo e vivendo!";
+        const texto = document.getElementsByClassName("title");
+        texto[0].innerText = "Exercício 5.1 - JavaScript";
+      }
+      mudancaText();
+      function mudancaCor() {
+        const quadrado2 = document.getElementsByClassName("main-content");
+        quadrado2[0].style.backgroundColor = "rgb(76,164,109)";
+        const centro = document.getElementsByClassName("center-content");
+        centro[0].style.backgroundColor = "white";
+      }
+      mudancaCor();
+      function mudarP() {
+        const todasP = document.getElementsByTagName("p");
+        for (todas of todasP) {
+          console.log(todas);
         }
       }
-      mudancaParagrafo();
-      function mudancaDeCor() {
-        const corDeFundo = document.getElementsByClassName("main-content");
-        corDeFundo[0].style.backgroundColor = "rgb(76,164,109)";
-        const corDeFundo2 = document.getElementsByClassName("center-content");
-        corDeFundo2[0].style.backgroundColor = "white";
-      }
-      mudancaDeCor();
-      function formatar() {
-        const titulo = document.getElementsByClassName("title");
-        titulo[0].innerText = "Exercício 5.1 - JavaScript";
-      }
-      formatar();
+      mudarP();
 
       /*
-        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
-        - document.getElementById()
-        - document.getElementsByClassName()
-        - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p>-----</p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+             Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+             - document.getElementById()
+             - document.getElementsByClassName()
+             - document.getElementsByTagName()
+      Crie uma função que mude o texto na tag <p>-----</p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+      Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+      Crie uma função que mude a cor do quadrado vermelho para branco.
+      Crie uma função que corrija o texto da tag <h1>.
+      Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+      Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+             */
     </script>
   </body>
 </html>
