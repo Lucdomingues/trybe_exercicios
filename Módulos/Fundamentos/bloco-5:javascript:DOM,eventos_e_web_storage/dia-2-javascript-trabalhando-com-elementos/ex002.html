@@ -1,0 +1,32 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+<script>
+  //
+  let firstDiv = document.getElementById("elementoOndeVoceEsta");
+  let paiE = firstDiv.parentElement;
+  //
+  let irmaoDe = document.createElement("div");
+  paiE.appendChild(irmaoDe);
+  //
+  let filhoDeOnde = document.createElement("p");
+  firstDiv.appendChild(filhoDeOnde);
+  filhoDeOnde.innerText = "Estou muito feliz!!";
+  //
+  let neto = firstDiv.firstElementChild;
+  let filhoDoFilho = document.createElement("p");
+  neto.appendChild(filhoDoFilho);
+  filhoDoFilho.innerText = "Sou filho do filho e neto do onde!";
+  //
+  filhoDoFilho.parentElement.parentElement.parentElement.lastElementChild
+    .previousElementSibling.previousElementSibling;
+</script>
