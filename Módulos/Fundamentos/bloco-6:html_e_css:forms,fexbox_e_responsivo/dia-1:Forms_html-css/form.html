@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header class="form-container" id="solo">
+      <img
+        src="https://avatars.githubusercontent.com/u/51808343?s=280&v=4"
+        alt="logo_da_trybe"
+        width="60px"
+      />
+      <h1>TrybeTrip</h1>
+      <p>
+        Concorra a uma viagem com a <strong>Trybe</strong> para o lugar que você
+        escolher e o melhor com tudo <strong>pagooo!!</strong>
+        <br />
+        <br />
+        <em>Quer participar do nosso sorteio? Preencha o formulário!</em>
+      </p>
+    </header>
+    <main class="form-container" id="segundo">
+      <h1>Preencha o Formulário</h1>
+      <form action="" method="get">
+        <section class="form-cont">
+          <div class="form-list">
+            <label for="nome">Nome: </label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome..."
+              maxlength="40"
+              minlength="10"
+              required
+            />
+          </div>
+          <div class="form-list">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu email..."
+              maxlength="50"
+              minlength="10"
+              required
+            />
+          </div>
+          <div class="form-list">
+            <article><p>Escolha um país abaixo:</p></article>
+            <fieldset>
+              <div>
+                <input type="radio" name="pais" id="argentina" value="pais-1" />
+                <label for="argentina">Argentina</label>
+              </div>
+              <div>
+                <input type="radio" name="pais" id="dinamarca" value="pais-2" />
+                <label for="dinamarca">Dinamarca</label>
+              </div>
+              <div>
+                <input type="radio" name="pais" id="canada" value="pais-3" />
+                <label for="canada">Canada</label>
+              </div>
+              <div>
+                <input type="radio" name="pais" id="china" value="pais-4" />
+                <label for="china">China</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="form-list">
+            <label for="">Resumo</label>
+            <textarea name="resumo" id="resumo"></textarea>
+            <span>
+              <em
+                >Escreva aqui o porque você de ser escolhido no sorteio!</em
+              ></span
+            >
+          </div>
+          <div class="form-list">
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" />
+          </div>
+          <div class="form-list">
+            <input type="checkbox" name="oportunidades" id="oportunidades" />
+            <label for="oportunidades"
+              >Gostaria de receber outras incríveis oportunidades oferecidas
+              pela Trybe?</label
+            >
+            <br />
+
+            <input type="checkbox" name="concordo" id="concordo" />
+            <label for="concordo"
+              >Concordo que imagens das minhas férias poderão ser usadas na
+              divulgação de concursos futuros.</label
+            >
+          </div>
+        </section>
+        <div id="btn-container">
+          <button type="submit" class="btn" id="env">Enviar</button>
+          <button type="reset" class="btn" id="limp">Limpar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
