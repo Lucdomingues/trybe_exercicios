@@ -62,21 +62,5 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-
-// function authorBornIn1947(ano) {
-//     const busca = books.find((books) => {
-//         if (books.author.birthYear === ano) {
-//             return books.author.name;
-//         }
-//     })
-//     return busca;
-// }
-// console.log(authorBornIn1947(1947));
-
-//Refatorei:
-function authorBornIn1947(ano) {
-    const busca = books.find((books) => books.author.birthYear === ano).author.name;
-    const tituloBusca = `Nome do autor: ${busca}`;
-    return tituloBusca;
-}
-console.log(authorBornIn1947(1890));
+const formatedBookNames = books.map((element) => `${element.name} - ${element.genre} - ${element.author.name}`);
+console.log(formatedBookNames);
