@@ -76,6 +76,7 @@ const books = [
 //Refatorei:
 function authorBornIn1947(ano) {
     const busca = books.find((books) => books.author.birthYear === ano).author.name;
-    return busca
+    const tituloBusca = `Nome do autor: ${busca}`;
+    return tituloBusca;
 }
-console.log(authorBornIn1947(1947));
+console.log(authorBornIn1947(1890));
