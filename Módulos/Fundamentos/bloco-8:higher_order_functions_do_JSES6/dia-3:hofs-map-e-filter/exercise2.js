@@ -62,6 +62,10 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-function nameAndAge() {
-
+const nameAndAge = () => {
+    const today = new Date();
+    const test = books.map((element) => ({ age: today.getFullYear() - element.author.birthYear, author: element.author.name, }));
+    const ordenar = test.sort((a, b) => a.age - b.age);
+    return ordenar;
 }
+console.log(nameAndAge());
